@@ -1,6 +1,18 @@
 #pragma once
-class Application
-{
 
-};
+#include "Core.h"
 
+namespace Zahel {
+
+	class ZAHEL_API Application
+	{
+	public :
+		Application();
+		virtual ~Application();
+
+		void Run();
+	};
+
+	// To be defined in CLIENT
+	Application* CreateApplication();
+}

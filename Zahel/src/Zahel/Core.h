@@ -6,7 +6,7 @@
 		#define ZAHEL_API __declspec(dllexport)
 	#else
 		#define ZAHEL_API __declspec(dllimport)
-	#endif // ZH_API_DLL
+	#endif 
 #else
 	#error Zahel only supports Windows!
 #endif 
