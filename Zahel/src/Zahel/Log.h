@@ -1,6 +1,7 @@
 #pragma once
 
 #include <memory>
+#include <spdlog/sinks/stdout_color_sinks.h>
 
 #include "Core.h"
 #include "spdlog/spdlog.h"
@@ -12,11 +13,12 @@ namespace Zahel {
 	public:
 		static void Init();
 
-		inline static std::shared_ptr<spdlog::logger>& GetCoreLogger() { return s_CoreLogger; }
-		inline static std::shared_ptr<spdlog::logger>& GetClientLogger() { return s_ClientLogger; }
+
+		static std::shared_ptr<spdlog::logger>& GetCoreLogger() { return s_CoreLogger; }
+		static std::shared_ptr<spdlog::logger>& GetClientLogger() { return s_ClientLogger; }
 	private:
-		static std::shared_ptr<spdlog::logger> s_CoreLogger;
-		static std::shared_ptr<spdlog::logger> s_ClientLogger;
+		inline static std::shared_ptr<spdlog::logger> s_CoreLogger = spdlog::stdout_color_mt("ZAHEL");
+		inline static std::shared_ptr<spdlog::logger> s_ClientLogger = spdlog::stdout_color_mt("APP");
 	};
 }
 
