@@ -2,8 +2,8 @@
 
 // For use by Zahel applications
 
-#include <stdio.h>
 #include "Zahel/Application.h"
+#include "Zahel/Log.h"
 
 // ----Entry Point------------
 #include "Zahel/EntryPoint.h"

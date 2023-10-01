@@ -27,9 +27,15 @@
     <ClInclude Include="src\Zahel.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\Zahel\Log.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Zahel\Application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Zahel\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
