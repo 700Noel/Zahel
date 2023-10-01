@@ -1,42 +1,31 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Source Files">
-      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
-      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
-    </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
-    </Filter>
-    <Filter Include="Resource Files">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    <Filter Include="Zahel">
+      <UniqueIdentifier>{1996920E-85AA-BABF-4E2C-5E1FBAFFB6F0}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Zahel\Core.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
+    <ClInclude Include="src\Zahel.h" />
     <ClInclude Include="src\Zahel\Application.h">
-      <Filter>Header Files</Filter>
+      <Filter>Zahel</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Zahel\Core.h">
+      <Filter>Zahel</Filter>
     </ClInclude>
     <ClInclude Include="src\Zahel\EntryPoint.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Zahel.h">
-      <Filter>Header Files</Filter>
+      <Filter>Zahel</Filter>
     </ClInclude>
     <ClInclude Include="src\Zahel\Log.h">
-      <Filter>Header Files</Filter>
+      <Filter>Zahel</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Zahel\Application.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Zahel</Filter>
     </ClCompile>
     <ClCompile Include="src\Zahel\Log.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Zahel</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
