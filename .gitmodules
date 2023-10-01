@@ -1,0 +1,3 @@
+[submodule "Zahel/vendor/spdlog"]
+	path = Zahel/vendor/spdlog
+	url = https://github.com/gabime/spdlog
