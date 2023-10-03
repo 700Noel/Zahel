@@ -25,6 +25,9 @@
     <ClInclude Include="Event.h">
       <Filter>Zahel\Events</Filter>
     </ClInclude>
+    <ClInclude Include="KevEvent.h">
+      <Filter>Zahel\Events</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Zahel\Application.cpp">

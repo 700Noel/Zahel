@@ -143,6 +143,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Event.h" />
+    <ClInclude Include="KevEvent.h" />
     <ClInclude Include="src\Zahel.h" />
     <ClInclude Include="src\Zahel\Application.h" />
     <ClInclude Include="src\Zahel\Core.h" />
