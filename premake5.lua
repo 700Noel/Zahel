@@ -29,6 +29,12 @@ project "Zahel"
 		"%{prj.name}/vendor/spdlog/include"
 	}
 
+	vpaths {
+		["Headers"] = { "**.h", "**.hpp" },
+		["Sources/*"] = {"**.c", "**.cpp"},
+		["Headers/Events"] = { "Event.h", "MouseEvent.h", "KeyEvent.h", "ApplicationEvent.h" }
+	}
+
 	filter "system:windows"
 		cppdialect "C++17"
 		staticruntime "On"
