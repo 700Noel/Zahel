@@ -31,9 +31,8 @@ project "Zahel"
 	}
 
 	vpaths {
-		["Headers"] = { "**.h", "**.hpp" },
+		["Headers/*"] = { "**.h", "**.hpp" },
 		["Sources/*"] = {"**.c", "**.cpp"},
-		["Headers/Events"] = { "Event.h", "MouseEvent.h", "KeyEvent.h", "ApplicationEvent.h" }
 	}
 
 	filter "system:windows"
@@ -83,6 +82,11 @@ project "Sandbox"
 	{
 		"Zahel/vendor/spdlog/include",
 		"Zahel/src"
+	}
+
+	vpaths {
+		["Headers/*"] = { "**.h", "**.hpp" },
+		["Sources/*"] = {"**.c", "**.cpp"},
 	}
 
 	links

@@ -18,7 +18,7 @@ namespace Zahel {
 	void Application::Run() 
 	{
 		WindowResizeEvent e(1280, 720);
-		ZH_TRACE(e);
+		ZH_TRACE(e.ToString());
 
 		while (true);
 	}
