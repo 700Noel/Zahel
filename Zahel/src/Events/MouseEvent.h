@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Zahel {
 
 	class ZAHEL_API MouseMovedEvent : public Event

@@ -18,6 +18,9 @@ project "Zahel"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "zhpch.h"
+	pchsource "Zahel/src/zhpch.cpp"
+
 	files 
 	{
 		"%{prj.name}/src/**.h",
@@ -26,13 +29,13 @@ project "Zahel"
 
 	includedirs
 	{
+		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include"
 	}
 
 	vpaths {
 		["Headers"] = { "**.h", "**.hpp" },
 		["Sources/*"] = {"**.c", "**.cpp"},
-		["Headers/Events"] = { "Event.h", "MouseEvent.h", "KeyEvent.h", "ApplicationEvent.h" }
 	}
 
 	filter "system:windows"

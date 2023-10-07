@@ -2,9 +2,6 @@
 
 #include "../Zahel/Core.h"
 
-#include <string>
-#include <functional>
-
 namespace Zahel {
 
 	// Events in Zahel are currently blocked, meaning when an event occurs it
@@ -16,7 +13,7 @@ namespace Zahel {
 	{
 		None = 0,
 		WindowClose, WindowResize, WindowFocus, WindowLostFocus, WindowMoved,
-		Apptick, AppUpdate, AppRender,
+		AppTick, AppUpdate, AppRender,
 		KeyPressed, KeyReleased,
 		MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled,
 	};

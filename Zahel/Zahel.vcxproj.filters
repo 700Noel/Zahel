@@ -45,6 +45,9 @@
     <ClInclude Include="src\Zahel\Log.h">
       <Filter>Headers</Filter>
     </ClInclude>
+    <ClInclude Include="src\zhpch.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Zahel\Application.cpp">
@@ -52,6 +55,9 @@
     </ClCompile>
     <ClCompile Include="src\Zahel\Log.cpp">
       <Filter>Sources\Zahel\src\Zahel</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zhpch.cpp">
+      <Filter>Sources\Zahel\src</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
