@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Zahel/Core.h"
+#include "Zahel/Core.h"
 
 namespace Zahel {
 

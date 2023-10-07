@@ -34,7 +34,7 @@ project "Zahel"
 	}
 
 	vpaths {
-		["Headers"] = { "**.h", "**.hpp" },
+		["Headers/*"] = { "**.h", "**.hpp" },
 		["Sources/*"] = {"**.c", "**.cpp"},
 	}
 
@@ -85,6 +85,11 @@ project "Sandbox"
 	{
 		"Zahel/vendor/spdlog/include",
 		"Zahel/src"
+	}
+
+	vpaths {
+		["Headers/*"] = { "**.h", "**.hpp" },
+		["Sources/*"] = {"**.c", "**.cpp"},
 	}
 
 	links
