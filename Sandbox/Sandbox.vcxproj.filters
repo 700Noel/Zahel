@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Sources">
+      <UniqueIdentifier>{89565304-F535-D29F-FE4D-5D766AAC3801}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Sandbox">
+      <UniqueIdentifier>{67095D0B-D394-CACF-DCA5-4DC448B026D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Sources\Sandbox\src">
+      <UniqueIdentifier>{FE221D1C-6A84-FA29-F3F1-40DC5F5231E9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\SandboxApp.cpp">
+      <Filter>Sources\Sandbox\src</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

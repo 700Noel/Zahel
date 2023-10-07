@@ -1,6 +1,6 @@
 #pragma once
 
-#include "../Zahel/Core.h"
+#include "Zahel/Core.h"
 
 #include <string>
 #include <functional>
@@ -16,7 +16,7 @@ namespace Zahel {
 	{
 		None = 0,
 		WindowClose, WindowResize, WindowFocus, WindowLostFocus, WindowMoved,
-		Apptick, AppUpdate, AppRender,
+		AppTick, AppUpdate, AppRender,
 		KeyPressed, KeyReleased,
 		MouseButtonPressed, MouseButtonReleased, MouseMoved, MouseScrolled,
 	};
