@@ -30,16 +30,16 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Events\ApplicationEvent.h">
+    <ClInclude Include="src\Zahel\Events\ApplicationEvent.h">
       <Filter>Headers\Zahel\src\Events</Filter>
     </ClInclude>
-    <ClInclude Include="src\Events\Event.h">
+    <ClInclude Include="src\Zahel\Events\Event.h">
       <Filter>Headers\Zahel\src\Events</Filter>
     </ClInclude>
-    <ClInclude Include="src\Events\KeyEvent.h">
+    <ClInclude Include="src\Zahel\Events\KeyEvent.h">
       <Filter>Headers\Zahel\src\Events</Filter>
     </ClInclude>
-    <ClInclude Include="src\Events\MouseEvent.h">
+    <ClInclude Include="src\Zahel\Events\MouseEvent.h">
       <Filter>Headers\Zahel\src\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Zahel.h">
@@ -60,6 +60,7 @@
     <ClInclude Include="src\zhpch.h">
       <Filter>Headers</Filter>
     </ClInclude>
+    <ClInclude Include="src\Zahel\Window.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Zahel\Application.cpp">

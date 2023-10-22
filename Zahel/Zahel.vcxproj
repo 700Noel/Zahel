@@ -145,15 +145,16 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="src\Events\ApplicationEvent.h" />
-    <ClInclude Include="src\Events\Event.h" />
-    <ClInclude Include="src\Events\KeyEvent.h" />
-    <ClInclude Include="src\Events\MouseEvent.h" />
+    <ClInclude Include="src\Zahel\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\Zahel\Events\Event.h" />
+    <ClInclude Include="src\Zahel\Events\KeyEvent.h" />
+    <ClInclude Include="src\Zahel\Events\MouseEvent.h" />
     <ClInclude Include="src\Zahel.h" />
     <ClInclude Include="src\Zahel\Application.h" />
     <ClInclude Include="src\Zahel\Core.h" />
     <ClInclude Include="src\Zahel\EntryPoint.h" />
     <ClInclude Include="src\Zahel\Log.h" />
+    <ClInclude Include="src\Zahel\Window.h" />
     <ClInclude Include="src\zhpch.h" />
   </ItemGroup>
   <ItemGroup>
