@@ -10,11 +10,11 @@
     <Filter Include="Headers\Zahel\src">
       <UniqueIdentifier>{1B8FC70D-87A5-C5A3-D01C-51C53C72962B}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Headers\Zahel\src\Events">
-      <UniqueIdentifier>{9FCE3764-8BF3-86E4-B43E-6C74A0C28502}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Headers\Zahel\src\Zahel">
       <UniqueIdentifier>{DE429161-4A7A-D9F8-5384-3D1CBF3A00F2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headers\Zahel\src\Zahel\Events">
+      <UniqueIdentifier>{0249DF79-EE6E-A9E0-D7B4-2EACC379CEAC}</UniqueIdentifier>
     </Filter>
     <Filter Include="Sources">
       <UniqueIdentifier>{89565304-F535-D29F-FE4D-5D766AAC3801}</UniqueIdentifier>
@@ -30,18 +30,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\Zahel\Events\ApplicationEvent.h">
-      <Filter>Headers\Zahel\src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Zahel\Events\Event.h">
-      <Filter>Headers\Zahel\src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Zahel\Events\KeyEvent.h">
-      <Filter>Headers\Zahel\src\Events</Filter>
-    </ClInclude>
-    <ClInclude Include="src\Zahel\Events\MouseEvent.h">
-      <Filter>Headers\Zahel\src\Events</Filter>
-    </ClInclude>
     <ClInclude Include="src\Zahel.h">
       <Filter>Headers\Zahel\src</Filter>
     </ClInclude>
@@ -54,13 +42,27 @@
     <ClInclude Include="src\Zahel\EntryPoint.h">
       <Filter>Headers\Zahel\src\Zahel</Filter>
     </ClInclude>
+    <ClInclude Include="src\Zahel\Events\ApplicationEvent.h">
+      <Filter>Headers\Zahel\src\Zahel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Zahel\Events\Event.h">
+      <Filter>Headers\Zahel\src\Zahel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Zahel\Events\KeyEvent.h">
+      <Filter>Headers\Zahel\src\Zahel\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Zahel\Events\MouseEvent.h">
+      <Filter>Headers\Zahel\src\Zahel\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\Zahel\Log.h">
       <Filter>Headers\Zahel\src\Zahel</Filter>
     </ClInclude>
-    <ClInclude Include="src\zhpch.h">
-      <Filter>Headers</Filter>
+    <ClInclude Include="src\Zahel\Window.h">
+      <Filter>Headers\Zahel\src\Zahel</Filter>
     </ClInclude>
-    <ClInclude Include="src\Zahel\Window.h" />
+    <ClInclude Include="src\zhpch.h">
+      <Filter>Headers\Zahel\src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Zahel\Application.cpp">
