@@ -63,6 +63,7 @@
     <ClInclude Include="src\zhpch.h">
       <Filter>Headers\Zahel\src</Filter>
     </ClInclude>
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Zahel\Application.cpp">
@@ -74,5 +75,6 @@
     <ClCompile Include="src\zhpch.cpp">
       <Filter>Sources\Zahel\src</Filter>
     </ClCompile>
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
   </ItemGroup>
 </Project>
